@@ -1,0 +1,20 @@
+.hero-container.MuiBox-root {
+  background-color: #e9fbe3;
+  padding: 80px 100px 80px;
+  margin: 64px 0 0;
+
+  .hero-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0 5rem;
+  }
+
+  .hero-description {
+    color: #323232;
+    margin: 1rem 20vw;
+    text-align: center;
+    font-size: 16px;
+  }
+}
