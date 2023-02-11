@@ -1,0 +1,15 @@
+.spot-form-container {
+  display: flex;
+  flex-direction: column;
+
+  .close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  form button {
+    margin-top: 10px;
+  }
+}
+

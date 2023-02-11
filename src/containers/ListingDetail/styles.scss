@@ -1,0 +1,33 @@
+.listing-detail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  padding: 5vw;
+
+  .avg-rating {
+    margin: 0 10px;
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      img {
+        border-radius: 50%;
+        width: 50px;
+        margin-right: 10px;
+      }
+    }
+
+    .stars {
+      margin: 10px 0;
+    }
+
+  }
+}
